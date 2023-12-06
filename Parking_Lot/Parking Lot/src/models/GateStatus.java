@@ -1,2 +1,4 @@
-package models;public enum GateStatus {
+package models;
+
+public enum GateStatus {
 }

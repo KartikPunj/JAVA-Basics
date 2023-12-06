@@ -1,2 +1,4 @@
-package models;public enum Payment_Mode {
+package models;
+
+public enum Payment_Mode {
 }

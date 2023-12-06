@@ -1,2 +1,4 @@
-package models;public enum ParkingSpotStatus {
+package models;
+
+public enum ParkingSpotStatus {
 }

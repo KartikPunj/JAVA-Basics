@@ -1,2 +1,4 @@
-package models;public enum BillStatus {
+package models;
+
+public enum BillStatus {
 }

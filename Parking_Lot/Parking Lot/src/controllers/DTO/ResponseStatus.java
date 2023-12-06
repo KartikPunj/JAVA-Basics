@@ -1,2 +1,7 @@
-package controllers.DTO;public enum ResponseStatus {
+package controllers.DTO;
+
+public enum ResponseStatus {
+    SUCCESS,
+    FAILURE
+
 }

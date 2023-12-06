@@ -1,2 +1,4 @@
-package models;public enum FeeCalculatorStrategyType {
+package models;
+
+public enum FeeCalculatorStrategyType {
 }

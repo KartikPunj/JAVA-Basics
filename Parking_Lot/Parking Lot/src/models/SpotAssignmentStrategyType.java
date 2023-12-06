@@ -1,2 +1,4 @@
-package models;public enum SpotAssignmentStrategyType {
+package models;
+
+public enum SpotAssignmentStrategyType {
 }

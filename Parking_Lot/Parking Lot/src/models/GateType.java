@@ -1,2 +1,4 @@
-package models;public enum GateType {
+package models;
+
+public enum GateType {
 }
