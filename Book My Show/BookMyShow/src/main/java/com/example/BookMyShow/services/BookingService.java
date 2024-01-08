@@ -6,10 +6,8 @@ import com.example.BookMyShow.models.*;
 import com.example.BookMyShow.repositories.ShowRepository;
 import com.example.BookMyShow.repositories.ShowSeatRepository;
 import com.example.BookMyShow.repositories.UserRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -30,7 +28,7 @@ public class BookingService {
         this.showSeatRepository = showSeatRepository;
         this.priceCalculator = priceCalculator;
     }
-    @Transactional(isolation= Isolation.SERIALIZABLE)
+    //@Transactional(isolation= Isolation.SERIALIZABLE)
     public Booking bookMovie(Long userId, Long showId, List<Long> showSeatIds ) throws InvalidUserException, ShowSeatNotAvailable {
         // actual business logic will come here
         //steps:-

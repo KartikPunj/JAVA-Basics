@@ -1,2 +1,12 @@
-package com.example.splitwise.DTO;public class SettleUpUserResponseDto {
+package com.example.splitwise.DTO;
+
+import com.example.splitwise.models.Expense;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+@Getter
+@Setter
+public class SettleUpUserResponseDto {
+    private List<Expense> expenses;
 }

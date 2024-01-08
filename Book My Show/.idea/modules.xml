@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Book My Show.iml" filepath="$PROJECT_DIR$/.idea/Book My Show.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BookMyShow/BookMyShow.iml" filepath="$PROJECT_DIR$/BookMyShow/BookMyShow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookMyShow/src/main/main.iml" filepath="$PROJECT_DIR$/BookMyShow/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookMyShow/src/test/test.iml" filepath="$PROJECT_DIR$/BookMyShow/src/test/test.iml" />
     </modules>
   </component>
 </project>
